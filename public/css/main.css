@@ -1,0 +1,15 @@
+/* 
+    Created on : 27 jan. 2021, 15:41:57
+    Author     : SeDaSoft
+*/
+
+body {
+  
+}
+.content {
+  padding: 1rem 1rem;
+  text-align: center;
+}
+.navbar-custom { 
+    background-color: darkred; 
+} 

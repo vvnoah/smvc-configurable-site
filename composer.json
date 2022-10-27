@@ -1,0 +1,39 @@
+{
+    "name": "sedasoft/smvc",
+    "description": "small php mvc framework for education purpose",
+    "type": "framework",
+    "authors": [
+        {
+            "name": "Stefan Segers",
+            "email": "stefan.segers@ucll.be"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./application",
+            "core\\": "./core",
+            "cmd\\": "./commands",
+            "": "./application/libs/classes"
+        },
+        "files": [
+            "core/helpers.php",
+            "application/libs/functions/helpers.php"
+        ]
+    },
+    "require": {
+        "twbs/bootstrap": "4.3.1",
+        "components/jquery": "3.5.*",
+        "vlucas/phpdotenv": "^5.3",
+        "symfony/console": "^5.2",
+        "maximebf/debugbar": "^1.18"
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "rm -rf public/css/bootstrap.min.css",
+            "rm -rf public/js/jquery.min.js",
+            "cp vendor/twbs/bootstrap/dist/css/bootstrap.min.css public/css/bootstrap.min.css",
+            "cp vendor/twbs/bootstrap/dist/js/bootstrap.min.js public/js/bootstrap.min.js",
+            "cp vendor/components/jquery/jquery.min.js public/js/jquery.min.js"
+        ]
+    }
+}
