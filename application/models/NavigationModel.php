@@ -3,7 +3,7 @@
 namespace app\models;
 
 class NavigationModel {
-    public function get_nav(){
+    public function get_nav_links(){
         return <<<HTML
                 <li class="nav-item">
                     <a class="nav-link" href="/home">Home</a>

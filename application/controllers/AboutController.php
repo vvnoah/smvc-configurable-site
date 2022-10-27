@@ -41,7 +41,7 @@ class AboutController extends Controller{
         $this->view->assign('main_title', $main_title);
         $this->view->assign('sub_title', $sub_title);
         
-        $navigation = $this->navigationData->get_nav();
+        $navigation = $this->navigationData->get_nav_links();
         $this->view->assign("navigation", $navigation);
     }
 }
