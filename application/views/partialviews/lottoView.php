@@ -11,9 +11,7 @@
                             <tr>
                                 <?php for($d=1; $d<=5; $d++): ?>
                                     <?php $grids++; ?>
-                                    <td>
-                                        <?php echo $lottoGrid[$blocks-1][$grids-1]; ?>
-                                    </td>
+                                    <?php echo $lottoGrid[$blocks-1][$grids-1]; ?>
                                 <?php endfor; ?>
                             </tr>
                         <?php endfor; ?>

@@ -7,7 +7,7 @@ class LottoModel {
         $grid = [];
         
         for($i = 0; $i < 14; $i++){
-            $random_numbers = $this->generate_random_numbers(1, 45, 6);
+            $random_numbers = $this->generate_random_numbers(0, 44, 6);
             $grid[$i] = [];
             for($j = 0; $j < 45; $j++){
                 if(in_array($j, $random_numbers)){
@@ -51,6 +51,6 @@ class LottoModel {
     private function generate_random_numbers($min, $max, $quantity){
         $numbers = range($min, $max);
         shuffle($numbers);
-        return array_slice($numbers, 0, $quantity);
+        return array_slice($numbers, 2, $quantity);
     }
 }
