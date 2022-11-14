@@ -12,4 +12,14 @@ body {
 }
 .navbar-custom { 
     background-color: darkred; 
-} 
+}
+
+
+table {
+  border: 2px solid;
+  border-collapse:collapse;
+}
+
+.highlight{
+  background-color: yellow;
+}

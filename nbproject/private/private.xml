@@ -3,9 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/VVNoa/OneDrive/Bureaublad/laragon/www/smvc-site-config/application/views/partialviews/aboutView.php</file>
-            <file>file:/C:/Users/VVNoa/OneDrive/Bureaublad/laragon/www/smvc-site-config/application/controllers/DefaultController.php</file>
-            <file>file:/C:/Users/VVNoa/OneDrive/Bureaublad/laragon/www/smvc-site-config/application/views/layouts/main.php</file>
+            <file>file:/C:/Users/VVNoa/OneDrive/Bureaublad/laragon/www/smvc-configurable-site/application/models/NavigationModel.php</file>
+            <file>file:/C:/Users/VVNoa/OneDrive/Bureaublad/laragon/www/smvc-configurable-site/application/views/layouts/main.php</file>
+            <file>file:/C:/Users/VVNoa/OneDrive/Bureaublad/laragon/www/smvc-configurable-site/application/routes.php</file>
+            <file>file:/C:/Users/VVNoa/OneDrive/Bureaublad/laragon/www/smvc-configurable-site/application/views/partialviews/aboutView.php</file>
+            <file>file:/C:/Users/VVNoa/OneDrive/Bureaublad/laragon/www/smvc-configurable-site/application/controllers/DefaultController.php</file>
+            <file>file:/C:/Users/VVNoa/OneDrive/Bureaublad/laragon/www/smvc-configurable-site/application/controllers/AboutController.php</file>
+            <file>file:/C:/Users/VVNoa/OneDrive/Bureaublad/laragon/www/smvc-configurable-site/application/models/AboutModel.php</file>
         </group>
     </open-files>
 </project-private>
