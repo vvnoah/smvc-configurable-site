@@ -28,23 +28,23 @@ class LottoModel {
     
     // desired output: 
     // [1] => [
-    //      [1] => "<td class="standard/highlight"> 1 </td>, 
-    //      [2] => "<td class="standard/highlight"> 2 </td>,
+    //      [1] => "<td class="standard||highlight"> 1 </td>, 
+    //      [2] => "<td class="standard||highlight"> 2 </td>,
     //      ... 
-    //      [45] => "<td class="standard/highlight"> 4 </td> 
+    //      [45] => "<td class="standard||highlight"> 4 </td> 
     // ],
     // [2] => [
-    //      [1] => "<td class="standard/highlight"> 1 </td>, 
-    //      [2] => "<td class="standard/highlight"> 2 </td>,
+    //      [1] => "<td class="standard||highlight"> 1 </td>, 
+    //      [2] => "<td class="standard||highlight"> 2 </td>,
     //      ... 
-    //      [45] => "<td class="standard/highlight"> 4 </td> 
+    //      [45] => "<td class="standard||highlight"> 4 </td> 
     // ],
     // ...
     // [14] => [
-    //      [1] => "<td class="standard/highlight"> 1 </td>, 
-    //      [2] => "<td class="standard/highlight"> 2 </td>,
+    //      [1] => "<td class="standard||highlight"> 1 </td>, 
+    //      [2] => "<td class="standard||highlight"> 2 </td>,
     //      ... 
-    //      [45] => "<td class="standard/highlight"> 4 </td> 
+    //      [45] => "<td class="standard||highlight"> 4 </td> 
     // ]
 
 

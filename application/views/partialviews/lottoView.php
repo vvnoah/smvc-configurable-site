@@ -1,4 +1,4 @@
-<table>
+<table class="lottoForm">
     <?php $blocks = 0;?>
     <?php for($a=1; $a<=2; $a++): ?>
         <tr>
