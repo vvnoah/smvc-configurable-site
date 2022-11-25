@@ -14,6 +14,9 @@ class NavigationModel {
                 <li class="nav-item">
                     <a class="nav-link" href="/lotto">Lotto</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/students">Students</a>
+                </li>
                 HTML;
     }
 }

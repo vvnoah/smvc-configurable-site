@@ -17,3 +17,4 @@ Router::get('/', [controllers\DefaultController::class, 'show_homepage']);
 Router::get('/home', [controllers\DefaultController::class, 'show_homepage']);
 Router::get('/about', [controllers\AboutController::class, 'index']);
 Router::get('/lotto', [controllers\LottoController::class, 'index']);
+Router::get('/students', [controllers\StudentController::class, 'index']);

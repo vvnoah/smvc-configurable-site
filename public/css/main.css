@@ -25,7 +25,7 @@ main {
   margin-right: auto;
 }
 
-table {
+table, td {
   border: 2px solid;
 }
 
